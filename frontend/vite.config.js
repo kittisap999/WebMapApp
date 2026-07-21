@@ -5,6 +5,8 @@ import cesium from 'vite-plugin-cesium'
 export default defineConfig({
   plugins: [cesium()],
   build: {
+    outDir: resolve(__dirname, '../backend/static'),
+    emptyOutDir: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
