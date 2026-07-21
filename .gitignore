@@ -43,6 +43,10 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
+# Node / Vite
+node_modules/
+*.local
+
 # Editors / IDE
 .vscode/*
 !.vscode/settings.json
