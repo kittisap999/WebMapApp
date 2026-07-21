@@ -1,21 +1,13 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.javascript.com" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
+  <div class="landing">
     <h1>WebMapApp</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
+    <p>ตัวอย่าง web map แต่ละไลบรารี</p>
+    <nav class="demo-links">
+      <a href="/leaflet.html">Leaflet</a>
+      <a href="/maplibre.html">MapLibre GL JS</a>
+      <a href="/cesium.html">CesiumJS</a>
+    </nav>
   </div>
 `
-
-setupCounter(document.querySelector('#counter'))
