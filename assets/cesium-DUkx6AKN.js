@@ -1,0 +1,1 @@
+import"./style-Ci5LdVS_.js";const e=new Cesium.Viewer("map",{baseLayer:new Cesium.ImageryLayer(new Cesium.OpenStreetMapImageryProvider({url:"https://tile.openstreetmap.org/"})),baseLayerPicker:!1,geocoder:!1,timeline:!1,animation:!1});e.camera.flyTo({destination:Cesium.Cartesian3.fromDegrees(100.5018,13.7563,15e3)});
